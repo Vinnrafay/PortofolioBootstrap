@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top mb-5">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3 mt-2 mb-2" href="#">Rafay</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto mb-3">
+            <a class="nav-link aktif" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#p">Portofolio</a>
+            <a class="nav-link" href="#s">Skills</a>
+            <a class="nav-link" href="#t">Timeline</a>
+            <a class="nav-link" href="#n">News</a>
+            <a class="nav-link" href="#c">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigasi -->
+
+    <!-- Header -->
+    <div class="container text-justify" id="h">
+      <div class="row bg-white">
+        <div class="col-6 mt-5 pt-1">
+          <p class="fw-bolder aktif fs-2 ms-3 mt-5">Rafay</p>
+          <p class="fw-bold fs-1 lh-2 ms-3">
+            JUNIOR WEB <br />
+            DEVELOPER IN <br />
+            INDONESIA
+          </p>
+          <p class="ms-3 warna">
+            Web Development. <br />
+            Mobile Development. <br />
+            Graphic Development.
+          </p>
+          <div class="d-flex flex-row mb-1">
+            <div class="p-2 fw-bold fs-2 text">10+</div>
+            <div class="p-2 warna1">
+              Years Of <br />
+              Experience
+            </div>
+            <div class="p-2 fw-bold fs-2 text">30K</div>
+            <div class="p-2 warna1">Happy<br />Customer</div>
+          </div>
+          <button type="button p-5" class="btn btn-warning px-5 mt-4 text-light">
+            Deskripsi Diri
+          </button>
+        </div>
+        <div class="col-6 mt-5 pt-2">
+          <img class="float-end" src="Assets/Rafay2-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Header Selesai -->
+
+    <!-- Card start -->
+    <div class="container text-justify mt-5" id="p">
+      <div class="row bg-white">
+        <div class="col-6">
+          <p class="fw-bolder aktif fs-6 ms-3">Portofolio</p>
+          <p class="fw-bold fs-2 lh-2 ms-3">SELECTED WORKS</p>
+        </div>
+      </div>
+    </div>
+    <div class="container justify-arround mb-5 mt-5">
+      <div class="row align-items-center">
+        <!-- Card 1 -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/portfolio-1.jpg"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-5 fw-bold">Podomoro Timer App UI</h5>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/portfolio-2.jpg"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-5 fw-bold">Podomoro Timer App UI</h5>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/portfolio-6.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-5 fw-bold">Podomoro Timer App UI</h5>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card Selesai -->
+
+    <!-- Program start -->
+    <div class="container-fluid bg-black mt-5 pt-5 mb-5 pb-5" id="s">
+      <div class="container text-start">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="aktif fs-5 fw-bolder mb-3 mt-3">Skill</div>
+            <div class="sub-title fs-1 fw-bold text-uppercase mb-5 text-white">
+              Programming Skills
+            </div>
+            <div class="jdul">
+              <h5>HTML</h5>
+              <h5>90%</h5>
+            </div>
+
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+            <br />
+            <br />
+
+            <div class="jdul">
+              <h5>CSS</h5>
+              <h5>50%</h5>
+            </div>
+
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 50%"></div>
+            </div>
+            <br />
+            <br />
+
+            <div class="jdul">
+              <h5>BOOTSTRAP</h5>
+              <h5>75%</h5>
+            </div>
+
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+            <br />
+            <br />
+          </div>
+          <div class="col">
+            <img
+              src="Assets/Rafay2-removebg-preview.png"
+              class="img-fluid float-end"
+              alt="..."
+              style="width: 75%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Program selesai -->
+
+    <!-- Table start -->
+    <div class="container text-justify" id="t">
+      <div class="row bg-white">
+        <div class="col-6">
+          <p class="fw-bolder aktif fs-6 ms-3">Timeline</p>
+          <p class="fw-bold fs-2 lh-2 ms-3">WORKING PERIOD</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>Januari 2024 - Today</td>
+            <td>Head Programmer & Co-Faunder</td>
+            <td>Shope, Jakarta</td>
+          </tr>
+          <tr>
+            <td>Januari 2023 - Desember 2023</td>
+            <td>Craetive Director & Senior Programmer</td>
+            <td>Lazada, Jakarta</td>
+          </tr>
+          <tr>
+            <td>September 2018 - 2021</td>
+            <td>Junior Programmer</td>
+            <td>Majoo, Jakarta</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Table Selesai -->
+
+    <!-- Pilihan Start -->
+    <div class="container text-justify mt-5 pt-5" id="n">
+      <div class="row bg-white">
+        <div class="col-6">
+          <p class="fw-bolder aktif fs-6 ms-3">Portofolio</p>
+          <p class="fw-bold fs-2 lh-2 ms-3">SELECTED WORKS</p>
+        </div>
+      </div>
+    </div>
+    <div class="container justify-arround">
+      <div class="row align-items-center">
+        <!-- Card Pertama -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/news-1.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-6">
+                  Bagaimana Membuat Web Portofolio
+                </h5>
+                <p class="card-text warna1">Bagaimana Membuat Web Portofolio</p>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/news-2.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-6">
+                  Bagaimana Membuat Web Portofolio
+                </h5>
+                <p class="card-text warna1">Bagaimana Membuat Web Portofolio</p>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3">
+              <img
+                src="Assets/img/news-3.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-6">
+                  Bagaimana Membuat Web Portofolio
+                </h5>
+                <p class="card-text warna1">Bagaimana Membuat Web Portofolio</p>
+                <p class="card-text aktif">Detail Portofolio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pilihan end -->
+
+    <!-- Testi start -->
+    <h1 class="fw-bold text-center mt-5">TESTIMONI</h1>
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="Assets/Toilet.jpg"
+              class="mx-auto d-block rounded-circle"
+              alt=""
+            />
+            <p class="text-center fw-bold mt-3">Wann</p>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              ad saepe. Explicabo illo <br />
+              nam cupiditate minima temporibus? Laboriosam esse sunt cum, itaque
+              ut voluptate nam vero aliquid enim expedita autem!
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Assets/Foto1.jpg"
+              class="mx-auto d-block rounded-circle"
+              alt=""
+            />
+            <p class="text-center fw-bold mt-3">Kai</p>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              ad saepe. Explicabo illo <br />
+              nam cupiditate minima temporibus? Laboriosam esse sunt cum, itaque
+              ut voluptate nam vero aliquid enim expedita autem!
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Assets/RajaIblis.jpg"
+              class="mx-auto d-block rounded-circle"
+              alt=""
+            />
+            <p class="text-center fw-bold mt-3">Albert</p>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              ad saepe. Explicabo illo <br />
+              nam cupiditate minima temporibus? Laboriosam esse sunt cum, itaque
+              ut voluptate nam vero aliquid enim expedita autem!
+            </p>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- Testi end -->
+
+    <!-- Format start -->
+
+    <!-- Contact -->
+    <div class="container mt-5 pt-5 mb-5 pb-5" id="c">
+      <div class="container text-start">
+        <div class="row align-items-start">
+          <div class="aktif fs-5 fw-bolder mb-3 mt-3">Contact</div>
+          <div class="sub-title fs-1 fw-bold text-uppercase mb-5">
+            Get in touch
+          </div>
+          <div class="col">
+            <div class="subtext warna1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis quia molestias inventore consectetur ad est error,
+              vero ratione quo autem labore ipsum laborum aliquam beatae sequi
+              nulla at cupiditate nemo!
+            </div>
+            <br />
+            <div class="adres">
+              JL Poras No 7 Sindang Barang Loji, Kota Bogor Jawa Barat
+            </div>
+            <br />
+            <div class="notelp">+62 877 9789 5571</div>
+            <br />
+            <div class="emal">fayyvino@gmail.com</div>
+          </div>
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  id="disabledTextInput"
+                  class="form-control"
+                  placeholder="Nama"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary px-5">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Selesai -->
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-1 mt-5 pt-5">
+      <p>Copyright &copy; 2025 Rafay X-3</p>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
